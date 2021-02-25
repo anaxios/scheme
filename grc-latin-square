@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head><title>GRC&nbsp;|&nbsp;Create &amp; Print Your Customized Encryption Grid&nbsp;&nbsp;&nbsp;&nbsp;</title>
+<!-- ChangeDetection.com detection="off" -->
+<meta name="author" content="Steve Gibson, GIBSON RESEARCH CORPORATION" />
+<meta name="keywords" content="Create and Print Your Customized Encryption Grid, Off The Grid, GRC, Gibson Research Corporation, Steve Gibson, steve gibson" />
+<meta name="description" content="Create and Print Your Customized Off The Grid Encryption Grid" />
+<meta name="sitemenu" content="" />
+<script type="text/javascript" src="/js/OffTheGrid.js"></script> <!-- load our page-specific code -->
+<script type="text/javascript" src="/js/PrintGrid.js"></script> <!-- load our page-specific code -->
+<link rel="stylesheet" media="all" type="text/css" href="/webfonts.css" />
+<link rel="stylesheet" media="all" type="text/css" href="/otg/gridstyles.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="pics-label" content='(pics-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "offices_@_grc.com" for "https://www.grc.com" on "1998.03.30T21:20-0800" r (n 0 s 0 v 0 l 0))' />
+<meta http-equiv="pics-label" content='(pics-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "https://www.grc.com" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "https://www.grc.com" r (n 0 s 0 v 0 l 0))' />
+<link rel="icon" href="https://www.grc.com/_l4bwcvroskj0e_/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="https://www.grc.com/_l4bwcvroskj0e_/favicon.ico" type="image/x-icon" />
+<link rel="meta" href="https://www.grc.com/labels.rdf" type="application/rdf+xml" title="ICRA labels" />
+<link rel="stylesheet" media="all" type="text/css" href="/_l4bwcvroskj0e_/grc.css" />
+<link rel="stylesheet" media="all" type="text/css" href="/_l4bwcvroskj0e_/mainmenu.css" />
+<link rel="stylesheet" media="all" type="text/css" href="https://www.grctech.com/_l4bwcvroskj0e_/thirdparty.css" />
+</head><body  link="#CC0000" vlink="#006666" alink="#FF0000"><a name="top"></a>
+<!-- ########################## GRC Masthead Menu ########################## -->
+
+<div class="menuminwidth0"><div class="menuminwidth1"><div class="menuminwidth2">
+<div id="masthead">
+	<a href="/default.htm"><img id="mastheadlogo" src="/mh-logo.gif" width="286" height="24" alt="Gibson Research Corporation" title="" /></a>
+	<img id="focus" src="/mh-focus.gif" width="121" height="13" alt="" title="What we're about" />
+	<a href="/news.htm"><img id="blogicon" src="/image/menublogicon.png" width="22" height="22" alt="blog icon" title="To our news and announcements page" /></a>
+	<a href="/news.htm"><img id="twittericon" src="/image/menutwittericon.png" width="22" height="22" title="To our news and announcements page" alt="Twitter Icon"/></a>
+	<a href="/news.htm"><img id="rssicon" src="/image/menurssicon.png" width="22" height="22" title="To our news and announcements page" alt="RSS Icon" /></a>
+
+	<form action="https://www.google.com/search.htm" id="searchbox_000064552291181981813:y8yi5go2xza" onsubmit="javascript: this.action='https://www.grc.com/search.htm'">
+		<input type="hidden" name="cx" value="000064552291181981813:y8yi5go2xza" />
+		<input type="hidden" name="cof" value="FORID:11" />
+		<input id="text" type="text" name="q" maxlength="256" />
+		<input id="search" type="image" name="sa" value="Search" src="/mh-srch.gif" alt="&nbsp;[Search]" title="" />
+	</form>
+</div>
+
+<div class="menu">
+
+<ul>
+	<li><a href="/default.htm"><img src="/mb-home.gif" width="76" height="18" alt="[Home]" title="" /><!--[if gt IE 6]><!--></a><!--<![endif]--><!--[if lt IE 7]><table border="0" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+		<ul class="leftbutton">
+			<li><a href="/purchasing.htm">&nbsp;Purchasing</a></li>
+			<li><a href="/sales.htm">&nbsp;Sales Support</a></li>
+			<li><a href="/support.htm">&nbsp;Technical Support</a></li>
+			<li><a href="/default.htm#bottom">&nbsp;Contact Us</a></li>
+			<li><a href="/news.htm">&nbsp;Blogs, Twitter &amp; RSS</a></li>
+			<li><a href="/privacy.htm">&nbsp;Privacy Policy</a></li>
+<!--			<li><a href="/siteoptions.htm">&nbsp;Site Options</a></li>			-->
+			<li><a href="/stevegibson.htm">&nbsp;Steve's Projects Page</a></li>
+			<li><a href="/resume.htm">&nbsp;Steve's Old Resume</a></li>
+		</ul>
+		<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+	</li>
+</ul>
+
+<ul>
+	<li><a href="/sr/spinrite.htm"><img src="/mb-products.gif" width="96" height="18" alt="[Products]" title="" /><!--[if gt IE 6]><!--></a><!--<![endif]--><!--[if lt IE 7]><table border="0" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+		<ul>
+			<li><a href="/sr/spinrite.htm">&nbsp;General information</a></li>
+			<li><a href="/sr/whatitdoes.htm">&nbsp;What SpinRite Does</a></li>
+			<li><a href="/sr/testimonials.htm">&nbsp;User testimonials</a></li>
+			<li><a href="/sr/smart.htm">&nbsp;S.M.A.R.T. Monitor</a></li>
+			<li><a href="/cs/prepurch.htm">&nbsp;Purchase SpinRite</a></li>
+			<li><a href="/sr/faq.htm">&nbsp;FAQ</a></li>
+			<li><a href="/sr/themovie.htm">&nbsp;Demo Videos</a></li>
+			<li><a href="/sr/kb/sata.htm">&nbsp;Knowledgebase: SATA</a></li>
+			<li><a href="/sr/kb/badbios.htm">&nbsp;Knowledgebase: BIOS</a></li>
+			<li><a href="/sroverview.htm">&nbsp;SpinRite v5.0 pages</a></li>
+		</ul>
+	<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+	</li>
+</ul>
+
+<ul>
+	<li><a href="/x/ne.dll?bh0bkyd2"><img src="/mb-services.gif" width="94" height="18" alt="[Services]" title="" /><!--[if gt IE 6]><!--></a><!--<![endif]--><!--[if lt IE 7]><table border="0" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+		<ul>
+			<li><a href="/x/ne.dll?bh0bkyd2">&nbsp;ShieldsUP!</a></li>
+			<li><a href="/revocation.htm">&nbsp;Certificate Revocation</a></li>
+			<li><a href="/haystack.htm">&nbsp;Password Haystacks</a></li>
+			<li><a href="/fingerprints.htm">&nbsp;HTTPS Fingerprints</a></li>			
+			<li><a href="/securitynow.htm">&nbsp;Security Now!</a></li>
+			<li><a href="/dns/dns.htm">&nbsp;DNS Spoofability Test</a></li>
+			<li><a href="/passwords.htm">&nbsp;Perfect Passwords</a></li>
+			<li><a href="/ppp.htm">&nbsp;PPP Passwords</a></li>
+			<li><a href="/media.htm">&nbsp;Tech TV video clips</a></li>
+			<li><a href="/discussions.htm">&nbsp;Newsgroup Discussions</a></li>
+		</ul>
+		<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+	</li>
+</ul>
+
+<ul>
+	<li><a href="/freepopular.htm"><img src="/mb-freeware.gif" width="98" height="18" alt="[Freeware]" title="" /><!--[if gt IE 6]><!--></a><!--<![endif]--><!--[if lt IE 7]><table border="0" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+		<ul class="skinny">
+			<li><center><a href="/sqrl/sqrl.htm"><b>SQRL</b></a></center></li>
+			<li><a href=""><span class="drop"><span>Security</span>&raquo;</span><!--[if gt IE 6]><!--></a><!--<![endif]--><!--[if lt IE 7]><table border="0" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+				<ul>
+					<li><a href="/inspectre.htm">&nbsp;InSpectre</a></li>
+					<li><a href="/securable.htm">&nbsp;Securable</a></li>
+					<li><a href="/lt/leaktest.htm">&nbsp;Leaktest</a></li>
+					<li><a href="/stm/shootthemessenger.htm">&nbsp;Shoot the messenger</a></li>
+					<li><a href="/unpnp/unpnp.htm">&nbsp;Unplug n' Pray</a></li>
+					<li><a href="/freeware/dcom.htm">&nbsp;DCOMbobulator</a></li>
+					<li><a href="/wmf/wmf.htm">&nbsp;MouseTrap</a></li>
+					<li><a href="/wmf/wmf.htm">&nbsp;MouseTrapCmd</a></li>
+				</ul>
+				<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+			</li>
+	
+			<li><a href=""><span class="drop"><span>Utilities</span>&raquo;</span><!--[if gt IE 6]><!--></a><!--<![endif]--><!--[if lt IE 7]><table border="0" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+				<ul>
+					<li><a href="/readspeed.htm">&nbsp;ReadSpeed</a></li>
+					<li><a href="/dns/benchmark.htm">&nbsp;DNS Benchmark</a></li>
+					<li><a href="/initdisk.htm">&nbsp;InitDisk</a></li>
+					<li><a href="/never10.htm">&nbsp;Never 10&nbsp;&nbsp;(no upgrade)</a></li>
+					<li><a href="/wizmo/wizmo.htm">&nbsp;Wizmo</a></li>
+					<li><a href="/id/idserve.htm">&nbsp;ID Serve</a></li>
+					<li><a href="/freeware/clickey.htm">&nbsp;ClicKey</a></li>
+					<li><a href="/ct/cleartype.htm">&nbsp;Free &amp; Clear</a></li>
+					<li><a href="/tip/id.htm">&nbsp;IDentity (ASPI)</a></li>
+				</ul>
+				<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+			</li>
+	
+			<li><a href=""><span class="drop"><span>Obsolete</span>&raquo;</span><!--[if gt IE 6]><!--></a><!--<![endif]--><!--[if lt IE 7]><table border="0" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+				<ul>
+					<li><a href="/cih/cih.htm">&nbsp;FIX-CIH</a></li>
+					<li><a href="/tip/clickdeath.htm">&nbsp;TIP (trouble in paradise)</a></li>
+					<li><a href="/oo-update.htm">&nbsp;OptOut</a></li>
+					<li><a href="/xpdite/xpdite.htm">&nbsp;XPdite</a></li>
+					<li><a href="/faq-shieldsup.htm">&nbsp;NoShare</a></li>
+					<li><a href="/faq-shieldsup.htm">&nbsp;LetShare</a></li>
+					<li><a href="/pw/patchwork.htm">&nbsp;Patchwork</a></li>
+				</ul>
+				<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+			</li>
+		</ul>
+		<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+	</li>
+</ul>
+
+<ul>
+	<li><a href=""><img src="/mb-research.gif" width="98" height="18" alt="[Research]" title="" /><!--[if gt IE 6]><!--></a><!--<![endif]--><!--[if lt IE 7]><table border="0" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+		<ul class="skinny">
+			<li><a href=""><span class="drop"><span>General</span>&raquo;</span><!--[if gt IE 6]><!--></a><!--<![endif]--><!--[if lt IE 7]><table border="0" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+				<ul>
+					<li><a href="/malware.htm">&nbsp;Malware Repository</a></li>
+					<li><a href="/sqrl/sqrl.htm">&nbsp;SQRL&nbsp;Login&nbsp;Technology</a></li>					
+					<li><a href="/ssl/ev.htm">&nbsp;EV SSL/TLS Certificates</a></li>
+					<li><a href="/otg/uheprng.htm">&nbsp;Ultra-high entropy PRNG</a></li>
+					<li><a href="/menudemo.htm">&nbsp;Pure CSS web menus</a></li>
+					<li><a href="/nat/nat.htm">&nbsp;NAT router security</a></li>
+					<li><a href="/pda/palmpower.htm">&nbsp;PDA max battery life</a></li>
+				</ul>
+				<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+			</li>
+	
+			<li><a href=""><span class="drop"><span>Pending</span>&raquo;</span><!--[if gt IE 6]><!--></a><!--<![endif]--><!--[if lt IE 7]><table border="0" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+				<ul>
+					<li><a href="/nf/netfilter.htm">&nbsp;GRC NetFilter</a></li>
+					<li><a href="/tp/trustpuppy.htm">&nbsp;TrustPuppy</a></li>
+				</ul>
+				<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+			</li>
+	
+			<li><a href=""><span class="drop"><span>Historical</span>&raquo;</span><!--[if gt IE 6]><!--></a><!--<![endif]--><!--[if lt IE 7]><table border="0" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+				<ul>
+					<li><a href="/worms/25-01-03.htm">&nbsp;Worm wars of 2001</a></li>
+					<li><a href="/downloaders.htm">&nbsp;File downloader spying</a></li>
+					<li><a href="/ct/ctwhat.htm">&nbsp;Sub-pixel font rendering</a></li>
+					<li><a href="/su/earthlink.htm">&nbsp;Earthlink browser tag</a></li>
+					<li><a href="/tip/codfaq1.htm">&nbsp;ZIP &amp; JAZ click of death</a></li>
+				</ul>
+				<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+			</li>
+	
+			<li><a href=""><span class="drop"><span>Dormant</span>&raquo;</span><!--[if gt IE 6]><!--></a><!--<![endif]--><!--[if lt IE 7]><table border="0" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+				<ul>
+					<li><a href="/vpn/vpn.htm">&nbsp;OpenVPN</a></li>
+					<li><a href="/r&amp;d/assimilator.htm">&nbsp;The Assimilator</a></li>
+					<li><a href="/aspi_me.htm">&nbsp;ASPI ME</a></li>
+				</ul>
+				<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+			</li>
+
+			<li><a href="/health.htm"><span class="drop"><span>Health</span>&raquo;</span><!--[if gt IE 6]><!--></a><!--<![endif]--><!--[if lt IE 7]><table border="0" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+				<ul>
+					<li><a href="/health.htm">&nbsp;Health Homepage</a></li>
+					<li><a href="/health/lowcarb.htm">&nbsp;The Low Carb Choice</a></li>
+					<li><a href="/health/vitamin-d.htm">&nbsp;Vitamin D</a></li>
+					<li><a href="/health/sleep/healthy_sleep_formula.htm">&nbsp;Healthy Sleep Formula</a></li>
+					<li><a href="/zeo.htm">&nbsp;Zeo Sleep Manager Pro</a></li>
+				</ul>
+				<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+			</li>
+
+		</ul>
+		<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+	</li>
+</ul>
+
+<ul>
+	<li id="other"><a href="/pdp-8/pdp-8.htm"><img src="/mb-other.gif" width="77" height="18" alt="[Other]" title="" /><!--[if gt IE 6]><!--></a><!--<![endif]--><!--[if lt IE 7]><table border="0" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+		<ul>
+			<li><center><a href="/sqrl/sqrl.htm"><b>SQRL</b></a></center></li>
+			<li><a href="/pdp-8/pdp-8.htm">&nbsp;PDP-8 Computers</a></li>
+			<li><a href="/misc/truecrypt/truecrypt.htm">&nbsp;TrueCrypt Repository</a></li>
+			<li><a href="/Big-Number-Calculator.htm">&nbsp;Big Number Calculator</a></li>
+			<li><a href="/tqc/TheQuietCanine.htm">&nbsp;The Quiet Canine</a></li>
+		</ul>
+		<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+	</li>
+</ul>
+
+</div> <!-- close "menu" div -->
+<hr style="display:none" />
+</div></div></div> <!-- close the "minwidth" wrappers -->
+<!-- ###################### END OF GRC MASTHEAD MENU  ###################### -->
+
+<center><div class="noprint">
+<br /><span style="color:#900; font-size:20pt;">Off The Grid</span><br /><b style="font-family:arial; font-size:16pt;">Create and Print Your Customized Encryption Grid</b><br /><img src="/image/darkbluepixel.gif" width="90%" height="4" border="0" alt="" /><br /><br />
+
+<noscript><div id="embelow" class="pagecontainer"><div class="attention_box" style="color:#800;"><div class="bold_red_headline" style="margin:-0.5em 0 0.25em;">Houston... We Have a Problem!!<div style="font-size:smaller;"><i>(Because we <u>DON'T</u> have JavaScript and <span style="color:#f00;">THIS PAGE</span> requires it.)</i></div></div>If you are reading this, your browser's built-in <b>JavaScript</b> interpreter is not functioning on this page. It is likely disabled and is thus (not surprisingly) unable to interpret this page's JavaScript. In general, that's probably what you want and intend.<br /><br />Before we go any further, allow us to congratulate you on your browser-based security. GRC and Steve Gibson <b>strongly endorse</b> the enhanced security of NOT running with JavaScript enabled by default, enabling it selectively on a site-by site, or even a page by page basis <b>only</b> when it is really needed ~ and then only on a site you trust.<br /><br />As a convenience to our security-aware visitors, we only use JavaScript when necessary. GRC's many other site features, including our <a href="/menudemo.htm">script-free site menuing system</a>, are fully functional without client-side scripting. This allows most of this site to be used with browser JavaScript disabled. But as you will see, the highly interactive or local-computing nature of <b>this</b> page requires a JavaScript-based solution. This is why JavaScript exists.<br /><br />To enable the functions below, <b>you must ENABLE</b> the JavaScript interpreter built into your web browser.<br /><br />Go ahead, we'll wait<b>&nbsp;.&nbsp;.&nbsp;.</b></div></div></noscript>
+
+</div> <!-- close the "noprint" div -->
+
+<table border="0" cellpadding="0" cellspacing="0">
+
+<tr class="noprint" align="center"><td colspan="3"><input type="button" value="Generate Maximum Entropy Master Grid Key" onclick="KeyGen();" ondblclick="KeyGen();" /></td></tr>
+
+<tr class="noprint" valign="bottom"><td style="color:#00a; text-align:left;">Master Grid Key</td><td align="center"><img class="redarrow" src="/image/red_down_arrow.png" width="30" height="26" alt="red_down_arrow" /></td><td style="color:#fff; text-align:right;">Master Grid Key</td></tr>
+
+<tr align="center"><td colspan="3"><table style="border:1px #000 solid;" border="0" cellpadding="0" cellspacing="0"><tr style="background:#f8f8f8; vertical-align:middle;"><td style="padding:5px 10px;"><textarea id="seedkey" class="seedkey" name="seedkey" cols="64" rows="4" spellcheck="false"></textarea></td><td  class="noprint" style="background:#aaa; width:1px;"></td><td class="noprint" style="background:#eee; padding:5px;"><input id="ClearButton" type="button" value="Clear" disabled="1" onclick="ClearButton();" ondblclick="ClearButton();" /></td></tr></table></td></tr>
+
+<tr valign="top">
+<td id="leftkeycaption"  style="color:#666; text-align:left;">HERE IS SOME TEXT IN THIS ELEMENT!</td>
+<td align="center"><img id="GenerateArrow1" class="redarrow" src="/image/white_down_arrow.png" width="30" height="26" alt="red_down_arrow" /></td>
+<td id="rightkeycaption" style="color:#fff; text-align:right;">HERE IS SOME TEXT IN THIS ELEMENT!</td>
+</tr>
+
+<tr class="noprint" align="center"><td colspan="3"><input id="GenerateButton" type="button" value="Generate Encryption Grid From Key" onclick="GenerateFromKey();" ondblclick="GenerateFromKey();" /></td></tr>
+<tr class="noprint" align="center"><td colspan="3"><img id="GenerateArrow2" class="redarrow" src="/image/white_down_arrow.png" width="30" height="26" alt="red_down_arrow" /></td></tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0"><tr><td>
+<div style="border:1px #666 solid;">
+<script type="text/javascript">
+//---------------------------------------------------------------------------------------------------------------------
+// The code below instantiates GRC's ultra-high entropy pseudo-random number generator. Upon instantiation, the uheprng
+// is initially randomized with the state of the browser's JavaScript prng. We then further enhance the uheprng entropy
+// by adding the top-of-document time-of-day and 1536 bits of high-quality entropy provided by GRC's servers.
+//
+// The code below dynamically 'document.write's the Latin Square grid into the web page as the page is being displayed.
+// The trickiest thing being done is that the 'oElementIDs' and 'oBorderIDs' arrays (defined below) are populated on-
+// the-fly by defining a CSS ID tag of 'temp', using 'getElementById' to obtain the newly created element's object ID,
+// then immediately using '.removeAttribute' to remove the just-assigned id='temp'.  This keeps the DOM small and also
+// eliminates any need for different IDs and for duplicate IDs.
+//---------------------------------------------------------------------------------------------------------------------
+serverEntropy = "S36blMZpzjz7b+ajAiyN8aUqw+J7+DS+yBBr9n58EG26hjiE4D9YLy/yQ79I7RtVtrqfWICHcajPsd67YfLxq9s8lV1YdWMW/4zP1zF2qSbKonVB6j5jHwlmz9U3k4SiDvWF2S2iWXQvp2iNb3GYwIUgO0VBmEOYU1ylpbxBYCfPAcfsYKZ3Jy3WJ7jdu8A4kzv49toapH/QfOiqp8ZrfXGsFMhdrjvNl6fTKgPjzKqOf8+k84FYK00XgTE1Kh6r";						// initial high-quality seed entropy provided by GRC's server
+instantiateUheprng();						// instantiate our UHEPRNG and initialize it with server and client entropy
+//---------------------------------------------------------------------------------------------------------------------
+Dim = 26;										// this is the master dimention (order) of the Latin Squares we'll be generating
+oElementIDs = new Array ( Dim*Dim );	// declare the global array for access to our visual grid elements
+oBorderIDs	= new Array ( Dim*4 );		// declare the global array for modifying the fonts used around the grid border
+oSpacerIDs  = new Array ( 4 );			// declare the global array for modifying the 'display' property of our spacerTRs
+//---------------------------------------------------------------------------------------------------------------------
+(function() { 		// create the fully "id-ized" grid for access to its individual cells
+	var i=0,j=0,k=0,n,c;	// 'i','j'&'k' generate unique IDs for the border and inner grid 'td's, and are autoincremented when they are used
+	// put out our opening 'table' tag...
+	document.write ( '<table class="table" border="0" cellpadding="0" cellspacing="0">' );
+	// put out the top horizontal row of top special symbols
+	document.write ( '<tr id="temp" class="spacertr"><td class="bordertd"></td><td class="border2"><img src="/image/transpixel.gif" alt="" /></td>' );
+	(oSpacerIDs[ k++ ] = document.getElementById( 'temp' )).removeAttribute('id');
+	for ( n = 0; n < Dim; n++ ) {
+		document.write ( '<td id="temp" class="' + ( n<7 || n>18 ? 'bordertd' : 'domaintd' ) + '">&nbsp;</td>' );
+		(oBorderIDs[ i++ ] = document.getElementById( 'temp' )).removeAttribute('id');
+	}
+	document.write ( '<td class="border2"><img src="/image/transpixel.gif" alt="" /></td><td class="bordertd"></td></tr>' );
+	// put out the spacer row
+	document.write ( '<tr id="temp" class="spacertr"><td class="border2"><img src="/image/transpixel.gif" alt="" /></td>' );
+	(oSpacerIDs[ k++ ] = document.getElementById( 'temp' )).removeAttribute('id');
+	for ( n = 0; n < Dim+2; n++ ) document.write ( '<td class="spacertd"></td>' );
+	document.write ( '<td class="border2"><img src="/image/transpixel.gif" alt="" /></td></tr>' );
+	// put out our entire central grid region
+	for ( n = 0; n < Dim; n++ ) {
+		// put out the central body of the table
+		document.write ( '<tr>' );
+		for ( c = 0; c < Dim+4; c++ ) {
+			if ( c == 0 ) {
+				document.write ( '<td id="temp" class="bordertd" style="border-right:1px;">&nbsp;</td>' );
+				(oBorderIDs[ i++ ] = document.getElementById( 'temp' )).removeAttribute('id');
+			} else if ( c > 1 && c < Dim+2 ) {
+				var charclass =  n%2 && n<Dim-1 ? (c%4<2 ? 'char3' : 'char2') : (c%4<2 ? 'char1' : 'char0');
+				// create a new 'td' tag with the id=temp within the grid
+				document.write ( '<td id="temp" class="globaltd ' + charclass + '">&nbsp;</td>' );
+				// grab and store the 'td's object value and reset its id to ''
+				(oElementIDs[ j++ ] = document.getElementById( 'temp' )).removeAttribute('id');
+			} else if ( c == Dim+3 ) {
+				document.write ( '<td id="temp" class="bordertd" style="border-left:1px;">&nbsp;</td>' );
+				(oBorderIDs[ i++ ] = document.getElementById( 'temp' )).removeAttribute('id');
+			} else {
+				// this is our spacer 'td'
+				document.write ( '<td class="spacertd"></td>' );
+			}
+		}
+		document.write ( '</tr>' );
+	}
+	// put out the spacer row	
+	document.write ( '<tr id="temp" class="spacertr"><td class="border2"><img src="/image/transpixel.gif" alt="" /></td>' );
+	(oSpacerIDs[ k++ ] = document.getElementById( 'temp' )).removeAttribute('id');
+	for ( n = 0; n < Dim+2; n++ ) document.write ( '<td class="spacertd"></td>' );
+	document.write ( '<td class="border2"><img src="/image/transpixel.gif" alt="" /></td></tr>' );
+	// put out the bottom horizontal row of top special symbols
+	document.write ( '<tr id="temp" class="spacertr"><td class="border2"></td><td class="border2"><img src="/image/transpixel.gif" alt="" /></td>' );
+	(oSpacerIDs[ k++ ] = document.getElementById( 'temp' )).removeAttribute('id');
+	for ( n = 0; n < Dim; n++ ) {
+		document.write ( '<td  id="temp" class="bordertd">&nbsp;</td>' );
+		(oBorderIDs[ i++ ] = document.getElementById( 'temp' )).removeAttribute('id');
+	}
+	document.write ( '<td class="border2"><img src="/image/transpixel.gif" alt="" /></td><td class="border2"></td></tr>' );
+	document.write ( '</table>' );	// write out our table closer
+})();
+</script></div></td></tr></table>
+
+<div class="noprint">
+
+<!-- Open Options Containment Table -->
+<div style="margin-top:1em;">Off The Grid Feature Customization (see below for additional details)<br><table border="0" cellpadding="0" cellspacing=5">
+
+<tr><!-- Open First Options Row -->
+
+<td colspan="2" class="optionTD">
+
+<table class="optionTABLE" style="padding:4px 8px;" border="0" cellpadding="0" cellspacing="0">
+<tr align="right"><td>Typeface Font &amp; Size</td><td align="right"><span class="optionlabel">User&nbsp;Font:</span><input type="checkbox" id="CustomFontEnable" name="CustomFontEnable" value="0" onclick="CustomFontMode( this.checked );" /></td></tr></table>
+
+<table class="optionTABLE"  style="padding:0px 10px 5px 10px;" border="0" cellpadding="0" cellspacing="0">
+<tr align="center"><td align="left"><span class="optionlabel">Font:</span>
+
+<select id="FontSelect" onchange="SetFont();"><script type="text/javascript">for ( var i = 0; i < FontDisplayNames.length; i++ ) document.write( (i == DefaultFont ? '<option selected="selected">' : '<option>') + FontDisplayNames[ i ] + '</option>' );</script></select>
+
+<input id="CustomFontName" style="display:none; margin:0px;" type="text" name="customfontname" size="25" value="Enter font, press button ==>" /><input id="SetCustomFont" style="display:none; margin:0px;" type="button" value="" onclick="SetCustomFont();" ondblclick="SetCustomFont();" />
+
+</td>
+<td align="right"><span class="optionlabel">Size:</span><select id="FontSize" onchange="SetSize();"><script type="text/javascript">for ( var i = MinimumFontSize; i <= MaximumFontSize; i++ ) document.write( (i == DefaultFontSize ? '<option selected="selected">' : '<option>') + i + '</option>' );</script></select></td>
+
+</tr></table></td>
+
+<td class="optionTD"><table class="optionTABLE" border="0" cellpadding="0" cellspacing="5">
+<tr align="center"><td colspan="2">Grid Cell Padding</td></tr>
+<tr align="center"><td><span class="optionlabel">Width:</span><select id="GridWidth" onchange="SetWidth();"><script type="text/javascript">for ( var i = 0; i < 9; i++ ) document.write( (i == 5 ? '<option selected="selected">' : '<option>') + (i-5) + '</option>' );</script></select></td>
+
+<td><span class="optionlabel">Height:</span><select id="GridHeight" onchange="SetHeight();"><script type="text/javascript">for ( var i = 0; i < 9; i++ ) document.write( (i == 4 ? '<option selected="selected">' : '<option>') + (i-4) + '</option>' );</script></select></td>
+
+</tr></table></td>
+
+</tr> <!-- Close First Option Row -->
+<tr valign="top"> <!-- Open Second Option Row -->
+
+<td class="optionTD" rowspan="2"><table class="optionTABLE" border="0" cellpadding="0" cellspacing="0">
+<tr><td style="padding:5px 10px;">Alphabetic Case Control</td></tr>
+<tr><td style="padding-left:1em; text-align:left;"><input id="CaseMixed" type="radio" name="CaseMap" value="0" onclick="SetCase(0);" checked /> MiXeD cAsE</td></tr>
+<tr><td style="padding-left:1em; text-align:left;"><input id="CaseLower" type="radio" name="CaseMap" value="1" onclick="SetCase(1);" /> all lower case</td></tr>
+<tr><td style="padding-left:1em; text-align:left;"><input id="CaseUpper" type="radio" name="CaseMap" value="2" onclick="SetCase(2);" /> ALL UPPER CASE</td></tr>
+<tr><td style="padding:0.5em;"><div style="background:#888; height:1px;"></div></td></tr>
+<tr><td style="padding-bottom:0.5em;"><select id="RunLength" onchange="SetRunLength( this.selectedIndex );"><script type="text/javascript">for ( var i = 0; i <= 6; i++ ) document.write( (i == 3 ? '<option selected="selected">' : '<option>') + i + '</option>' );</script></select> <span id="SameCaseLimit">Same Case Limit</span>
+</td></tr></table></td>
+
+<td class="optionTD"><table class="optionTABLE" border="0" cellpadding="0" cellspacing="5">
+<tr align="center"><td>Border Characters</td></tr>
+<tr><td style="padding:0 0.5em;">
+<input type="checkbox" id="BorderCharacters" name="BorderChars" value="0" onclick="SetBorderChars( this.checked );" checked /> Enable Border Chars
+</td></tr></table></td>
+
+<td class="optionTD" rowspan="2" style="padding:5px;"><table class="optionTABLE" border="0" cellpadding="0" cellspacing="0">
+<tr align="center"><td colspan="2" style="padding-bottom:5px;">Component Coloration</td></tr>
+
+<tr><td align="right">Grid Text:</td><td><input id="GridTextSpec" value="#0000AA" size="6" class="optionCOLOR color {styleElement:'GridTextColor', pickerClosable:true, hash:true}" onchange="SetTextColor(this.value);"><input type="text" size="1" value="" readonly id="GridTextColor" onclick="document.getElementById( 'GridTextSpec' ).focus();"></td></tr>
+
+<tr><td align="right">Border Text:</td><td><input id="BorderTextSpec" value="#888888" size="6" class="optionCOLOR color {styleElement:'BorderTextColor', pickerClosable:true, hash:true}" onchange="SetBorderColor(this.value);"><input type="text" size="1" value="" readonly id="BorderTextColor" onclick="document.getElementById( 'BorderTextSpec' ).focus();"></td></tr>
+
+<tr><td align="right">Even Columns:</td><td><input id="EvenColsSpec" value="#DDFFDD" size="6" class="optionCOLOR color {styleElement:'EvenColsColor', pickerClosable:true, hash:true}" onchange="SetEvenColsColor(this.value);"><input type="text" size="1" value="" readonly id="EvenColsColor" onclick="document.getElementById( 'EvenColsSpec' ).focus();"></td></tr>
+
+<tr><td align="right">Odd Columns:</td><td><input id="OddColsSpec" value="#FFFFFF" size="6" class="optionCOLOR color {styleElement:'OddColsColor', pickerClosable:true, hash:true}" onchange="SetOddColsColor(this.value);"><input type="text" size="1" value="" readonly id="OddColsColor" onclick="document.getElementById( 'OddColsSpec' ).focus();"></td></tr>
+
+</table></td>
+
+</tr> <!-- Close Second Option Row -->
+<tr> <!-- Open Third Option Row -->
+
+<td class="optionTD" style="background:#FFF;"><table class="optionTABLE" border="0" cellpadding="0" cellspacing="5">
+<tr align="center"><td>Restore Default Settings</td></tr>
+<tr><td><input type="button" value="Restore Defaults" onclick="RestoreDefaults();" ondblclick="RestoreDefaults();" /></td></tr>
+</table></td>
+
+
+</tr> <!-- Close Third Option Row -->
+
+</tr></table><!-- Close Options Containment Table -->
+
+
+<div class="pagecontainer" style="margin-top:1em;"><table align="left" style="border:1px #aaa solid; margin:0 1em 0.25em 0;"><tr><td id="AmbiguousChars" style="color:#000; font-size:16pt; padding:10px 20px; font-family:Cambridge-Exp;">I i L l J j O o 1 0</td></tr></table><img src="/image/arrow.gif" width="20" height="18" alt="arrow" />&nbsp;<span class="para_heading">Check for confusing &#8220;lookalike&#8221; characters:</span>&nbsp;&nbsp;In many fonts, the characters in the box to the left frequently look similar to one another. The available fonts have been deliberately chosen to minimize any similar character glyphs (shapes). And reliable use of the grid requires you to be able to clearly tell the difference between (for example) a capital 'eye' (I) and a lowercase 'ell' (l). So as you select the font for use by your own grid, check this box to verify that the various often-too-similar characters are clearly distinguishable from each other.</div>
+
+</div></div></div> <!-- ################################## END OF WIP SUPPRESSION ################################## -->
+
+<div class="pagecontainer noprint">
+
+<div class="orange red_headline_16"><b>Creating &amp; Printing Your Personal Encryption Grid</b></div>
+
+<p>Although the grid generation and formatting controls above are straightforward, the guidance provided below may be useful:</p>
+
+<div class="blue_section_heading">Printing with Google's Chrome Browser is Broken!&nbsp;&nbsp;<span style="font-size:smaller;">(Because it <b><u>won't</u></b> print background colors!)</span></div>
+
+<p><b>Google Chrome browser users</b> will need to use some other (any other) web browser to print their OTG grids.</p>
+
+<p>Under Chrome, the OTG grids <b>display</b> beautifully. And Chrome is so fast and web standards compliant that I used it extensively while developing the OTG code. But for printing?<b>&nbsp;.&nbsp;.&nbsp;.</b> it's an inexplicable failure.</p>
+
+<p>For reasons that none of the hundreds of people posting and voting in open Google forums can understand, even though Google's Chrome browser is (at the time of this writing) at version 15, it remains unable to print web page background colors. This is not a small failing. It's astounding. Since I'm a fan of Google's Chrome browser project I look forward to being able to remove this entire section from this page. But I cannot do so yet. (And please DO let me know as soon as this problem is resolved!)</p>
+
+<p>For additional information about printing the grid's useful background colors in other browsers, please see the appropriate section below.</p>
+
+<div class="blue_section_heading">Choosing Your Own Master Key</div>
+
+<p><b class="bigred">How much &#8220;Grid Key Entropy&#8221; is enough?</b>&nbsp;&nbsp;(This is an important issue, so I've given it plenty of coverage.)</p>
+
+<p>The primary source of security provided by our Off The Grid (OTG) encryption system is the incredibly large number of 26x26 Latin Squares from among which your single Square will be chosen. So many Squares are possible that mathematicians armed with the latest technology do not know how many there are. They are only able to set a lower bound on the number, stating that there are at least 9.337 x 10<sup>426</sup> Latin Squares of size 26x26 possible. This incredibly large number makes it effectively impossible for attackers to deduce your single unique Square from among all of those possible, even when given many clues from any reasonable amount of &#8220;leakage&#8221;. (For a detailed analysis of OTG security see the &#8220;<a href="/otg/security.htm">Security &amp; Attack Analysis</a>&#8221; page.)</p>
+
+<p>The &#8220;Master Grid Key&#8221; field above is as large as it is, not because it needs to be or should be filled, but because it can be if that's your wish. Here's the deal: With SO INSANELY MANY possible Latin Squares available, the  only way to &#8220;get to&#8221; all of them, is to use a pseudo-random number generator that also has an insanely large &#8220;sequence space&#8221;. Since no common pseudo-random number generators do, I had to design an <a href="/otg/uheprng.htm">ultra-high entropy pseudo-random number generator (UHEPRNG)</a> to meet that need.</p>
+
+<p>But now we need to specify <u>which single Latin Square</u> out of all of those that are possible, we wish to use. And the only way to do that, if we want to be able to potentially access any one of over 9.337 x 10<sup>426</sup> different possible Squares, is to use a &#8220;Master Grid Key&#8221; having at least as much possible entropy as our UHEPRNG can hold.</p>
+
+<p>One way to think of it is, if your Master Grid Key were a single numeric digit from 0 to 9, you could generate exactly ten different Latin Squares, one for each possible numeric digit 0 to 9. So the only way to access, for example, the 10<sup>426th</sup> Latin Square is with an input &#8220;Key&#8221; that's long enough to express a value that large.</p>
+
+<p>If you press the &#8220;Generate Maximum Entropy Master Grid Key&#8221; button at the very top of this page, a key containing 1,681.88 equivalent bits of entropy &#8212; which is sufficient to specify any one of the known-possible Latin Squares &#8212; will be generated and provided to you. However, my feeling is that this is massive overkill. It's obviously impossible for any normal human being to memorize that totally random 256-character key. So if you wished to be able to re-generate your personal OTG grid at any future time, you would need to copy the key, and paste it into a file for safe keeping, or at the very least print it and hope that you can re-enter exactly the same way again.</p>
+
+<div class="red_headline"><b>Using a sufficiently strong standard<br>passphrase provides ample security</b></div>
+
+<p><b>&#8220;More&#8221; isn't always better if more is a hassle and if &#8220;less&#8221; is plenty.</b></p>
+
+<p>The only known way to attack the OTG system is the same as with any strong cryptosystem when all other avenues have been exhausted: a &#8220;brute force&#8221; attack. &#8220;Brute forcing&#8221; the OTG system requires the attacker to step through all possible input keys, trying each one. For each key tried, the corresponding OTG grid for that key must be generated, then the resulting grid used to convert a domain name into its matching password. The practical trouble with doing that is that the creation of each OTG grid requires a truly HUGE amount of processing. Modern cryptosystems have been selected to be fast so as to minimize the overhead imposed upon the systems using them. While the usage of an existing OTG grid could be automated to be incredibly fast, the generation of each OTG grid from its key is incredibly time consuming. Consequently, attacking the OTG system with brute force grid generation will be far more computationally intensive and thus slower than attacking other modern cryptosystems, such as the AES/Rijndael cipher.</p>
+
+<p>So, brute forcing the OTG system is the only apparent means of attacking it, and doing so would be much slower than brute force attacking a modern cipher such as AES/Rijndael. Now consider that a randomly chosen 128-bit key is considered entirely safe and secure for AES/Rijndael. With AES/Rijndael being far faster to brute force than the OTG grid, and 128-bits of key length security is regarded as ample security for it<b>&nbsp;.&nbsp;.&nbsp;.</b> This means that a similar randomly chosen 128-bit key would be <b>far more secure</b> for use by the OTG system, since trying each possible key will require so much more processing for grid generation than is required for AES/Rijndael key setup (scheduling) and encryption or decryption.</p>
+
+<div class="red_headline">This means that a highly-random 128-bit OTG Master<br />Grid Key provides all the protection anyone requires.</div>
+
+<p><b>Haystacks to the Rescue!</b><br />If you're not already familiar with our &#8220;<a href="/haystack.htm">Password Haystacks</a>&#8221; concept, for easily strengthening memorable passwords, you'll definitely want to <a href="/haystack.htm">check it out</a>. It's relevant here because the OTG system allows you to use grid selection input passcodes of effectively any length. This means that you can bury your own memorable and manageable passphrase (or passphrases) within a far longer string of padding characters <b>&nbsp;.&nbsp;.&nbsp;.</b> and no attacker will ever have any way of knowing that's what you did.</p>
+
+<div class="red_headline"><b>So&nbsp;.&nbsp;.&nbsp;.</b></div>
+
+<p>Of course you can simply use an insane 256-character Master Grid Key if you store it in a file using copy &amp; paste to save and recall it for any future need.&nbsp; But you <b>really</b> don't need to.&nbsp; If you would prefer to invent something sufficiently but comfortably long, and perhaps use some haystack-style padding to push it way out past any feasible brute forcing range, that will provide <b>all the security necessary</b>. Once you have enough security for total safety, more can just be a burden.</p>
+
+<div class="blue_section_heading">Using Custom Fonts</div>
+
+<p>The grid printing user interface (above) provides a carefully chosen selection of 36 very different typeface fonts for use in generating OTG grids to be printed. Any fonts having potentially confusing look alike characters were carefully eliminated, and the variety among those remaining should satisfy anyone's taste.</p>
+
+<p>However, there are attractive and useful fonts that are not available under license for web distribution, and so could not be included here. Most of these are platform-specific and are, therefore, only available on &#8220;your&#8221; platform, whether Windows, Mac, or Linux. To accommodate their use, the &#8220;User Font&#8221; option in the user-interface converts the font listing and selection control into a free-form text field where you may enter the name of &#8220;locally-installed&#8221; font you wish to use, then click the button at the right of the field to apply your request.</p>
+
+<p>Note that unavailable or misnamed fonts will not generate any errors. Instead, the system will silently substitute its default font, which is typically the serif &#8220;Times New Roman&#8221;. This should be easy to detect, since you won't see the font you were trying to obtain. Fonts installed in Windows are located in the &#8220;Fonts&#8221; folder inside the system's &#8220;Windows&#8221; directory. You can determine the <b>exact font name</b> to enter into the OTG User Font field, by double-clicking on your desired font file located in the Fonts directory. This will open the font in the Windows font viewer shown below:</p>
+
+<center><img src="/otg/fontnames.png" width="746" height="246" alt="fontnames" /></center>
+
+<p>The font's registered system name is found in the &#8220;Typeface name&#8221; field shown highlighted above.</p>
+
+<div class="nice_green_box">Note that the <b>&#8220;Consolas&#8221;</b> font mentioned above is a very nice alternative available to all Windows users. We would have gladly included it in the user interface above, but it is only available for Windows users. If your Windows system does not currently have Consolas installed, you may freely download and install it from Microsoft's web site. (Download: <a href="http://download.microsoft.com/download/c/4/6/c46a63b8-d43e-4eff-8fba-aade660b6908/setup.exe">Consolas Font Family Executable Setup</a> &#8212; 4.45 mb)</div>
+
+<div class="nice_green_box" style="margin-top:1em;"><b>Another noteworthy font</b> for Windows users is &#8220;Envy Code R&#8221; which is a personal project of software developer and part-time font designer, Damien Guard. It is unusually complete. You can learn all about it, and obtain it, <a href="http://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released">HERE</a>.</div>
+
+<p><b>Obtaining Custom <span style="font-size:larger;">BOLD</span> Fonts</b><br />For the built-in fonts, bold variations are listed alongside their non-bold and other appearance variations (expanded, condensed, etc.) For user specified fonts, emboldened variations can be obtained, when available, simply by adding the word &#8220;bold&#8221; to the font name field.</p>
+
+<div class="blue_section_heading">Printing Background Color</div>
+
+<p>By default, web browsers (other than Opera) do not print the background colors or images appearing on web pages. Since GRC's web site uses white backgrounds, its pages will printed correctly by web browsers that deliberately leave colored backgrounds white and unrepresented. But the OTG grid uses background coloration as a visual aid to help clarify its usage, render the grid less cluttered and increase the accuracy of its usage. All browsers will <b>display</b> this coloration, but most browsers need to be configured to <b>print</b> this helpful coloration.</p>
+
+<p>To see whether your chosen web browser will print OTG grids with background images, you can use your browser's &#8220;print preview&#8221; to see what would be printed without wasting a sheet of paper. Since Google's Chrome browser refuses to print backgrounds and apparently cannot be reconfigured, you will need to use another browser for OTG grid printing. But if you are not using Chrome, and you do need to reconfigure your browser to print backgrounds, the following browser-specific instructions provide a quick reference for finding the background printing configuration settings for all major web browsers:</p>
+
+<p style="margin-top:2em;"><span class="larger_red_arial">&bull;&nbsp;Internet Explorer:</span><br /><img class="bkgndImg" src="IE-print.png" width="413" height="134" alt="IE-print" /><ul class="tightlist"><li>Open Internet Explorer's &#8220;Tools&#8221; menu, which might be either the word &#8220;Tools&#8221; or a gear icon, and is probably located out at the far right end of the menu items.</li><li>Choose &#8220;Internet Options&#8221; from the Tools menu. It is usually found as the last item at the bottom of the menu.</li><li>As shown to the left, select the &#8220;Advanced&#8221; tab on the Internet Options dialog.</li><li>Scroll down through the &#8220;Settings&#8221; list to the &#8220;Printing&#8221; section.</li><li>Enable background colors and images printing by checking that checkbox.</li><li>Press the &#8220;OK&#8221; button to accept and dismiss the Internet Options dialog, then verify that backgrounds will now be printed by viewing the &#8220;Print Preview&#8221; under the Printing menu.</li></ul></p>
+
+<p style="clear:both; margin-top:2em;"><span class="larger_red_arial">&bull;&nbsp;Mozilla Firefox:</span><br /><img class="bkgndImg" src="FF-print.png" width="381" height="221" alt="FF-print" /><ul class="tightlist"><li>Open Firefox's &#8220;File&#8221; menu and choose the &#8220;Page Setup...&#8221; option.</li><li>As shown to the left, the &#8220;Format &amp; Options&#8221; tab should already be selected, but if not, select it.</li><li>Enable the &#8220;Print Background (colors &amp images)&#8221; option by checking that checkbox, as shown.</li><li>Verify that backgrounds will now be printed by choosing the &#8220;Print Preview&#8221; option from Firefox's File menu.</li></ul></p>
+
+<p style="clear:both; margin-top:2em;"><span class="larger_red_arial">&bull;&nbsp;Apple Safari:</span><br /><img class="bkgndImg" style="margin-left:-1em;" src="S-print.png" width="294" height="121" alt="S-print" /><ul class="tightlist"><li>Under Safari's &#8220;File&#8221; menu, choose &#8220;Print...&#8221; (This will be the last item on the File menu.)</li><li>If there is a button near the lower left of the Print dialog saying either &#8220;Show Details&#8221; or &#8220;Hide Details&#8221;, and if the button currently say &#8220;Show Details&#8221;, click that button to show the details. (This will change the button to &#8220;Hide Details&#8221;).</li><li>If there is no &#8220;...Details&#8221; button, you should find a downward pointing arrow near the upper right of the dialog. If so, click that button to reveal the printing details.</li><li>As shown on the printing details dialog, verify that the section selector is set to &#8220;Safari&#8221;.</li><li>Enable &#8220;Print backgrounds&#8221; by checking its checkbox then click &#8220;Cancel&#8221; to close the printing details dialog.</li></ul></p>
+
+<p style="clear:both; margin-top:2em;"><span class="larger_red_arial">&bull;&nbsp;Opera:</span><br /><img class="bkgndImg" src="O-print.png" width="282" height="108" alt="O-print" /><ul class="tightlist"><li>Click the &#8220;Opera&#8221; tab to open the browser's main menu.</li><li>Under the &#8220;Print&#8221; main menu topic, select the &#8220;Print Options...&#8221; menu item.</li><li>As shown to the left, enable &#8220;Print page background&#8221; by checking its checkbox.</li><li>Verify that backgrounds will now be printed by choosing the &#8220;Print Preview&#8221; item from the same &#8220;Print&#8221; menu.</li></ul></p>
+
+<p style="clear:both; margin-top:2em;"><span class="larger_red_arial">&bull;&nbsp;Google Chrome:</span><br />Not to beat a dead horse, (okay, perhaps we are beating it a bit) but in case you have somehow managed to miss its several mentions above, Google's Chrome web browser apparently has no option, not even a deeply hidden setting, to allow background colors or images to be printed. Fortunately, all Windows users will have a copy of Internet Explorer lurking around somewhere (even if [hopefully] rarely used), just as all Apple Mac users will have Safari available. Or, in the worst case, the free and excellent Firefox web browser could be downloaded and used. So, if only for the rare need to print an OTG grid, another non-Chrome web browser can be used.</p>
+
+<div class="blue_div"></div><br />
+
+<script type="text/javascript">
+	initPageStuff();
+</script>
+
+</div> <!-- close the page container div -->
+<div class="noprint"><center style="margin-top:2em;"><font style="font-size:smaller;">Off The Grid Resource Pages:</font>
+
+<table border="0" cellpadding="0" cellspacing="0"><tr><td><div class="linkblock">
+<table border="0" cellpadding="0" cellspacing="0"><tr valign="top">
+<td>
+<div><span>&nbsp;&nbsp;&nbsp;1&nbsp;<span><a href="https://www.grc.com/offthegrid.htm">&#8220;Off The Grid&#8221; Introduction</a>&nbsp;</span></span></div>
+<div><span>&nbsp;&nbsp;&nbsp;2&nbsp;<span><a href="https://www.grc.com/otg/goals.htm">Security Goals and Design</a>&nbsp;</span></span></div>
+<div><span>&nbsp;&nbsp;&nbsp;3&nbsp;<span><a href="https://www.grc.com/otg/operation.htm">How to use the OTG system</a>&nbsp;</span></span></div>
+<div><span>&nbsp;&nbsp;&nbsp;4&nbsp;<span><a href="https://www.grc.com/otg/enhancements.htm">Enhanced Security Options</a>&nbsp;</span></span></div>
+<div><span>&nbsp;&nbsp;&nbsp;5&nbsp;<span><a href="https://www.grc.com/otg/offthegrid.htm">Create/Print Your Own Grid</a>&nbsp;</span></span></div>
+</td>
+<td>
+<div><span>&nbsp;&nbsp;&nbsp;6&nbsp;<span><a href="https://www.grc.com/otg/questions.htm">Frequently Asked Questions</a>&nbsp;</span></span></div>
+<div><span>&nbsp;&nbsp;&nbsp;7&nbsp;<span><a href="https://www.grc.com/otg/technology.htm">Technical Details and Docs</a>&nbsp;</span></span></div>
+<div><span>&nbsp;&nbsp;&nbsp;8&nbsp;<span><a href="https://www.grc.com/otg/security.htm">Security &amp; Attack Analysis</a>&nbsp;</span></span></div>
+<div><span>&nbsp;&nbsp;&nbsp;9&nbsp;<span><a href="https://www.grc.com/LatinSquares.htm">Latin Squares Workbench</a>&nbsp;</span></span></div>
+<div><span>&nbsp;10&nbsp;<span><a href="https://www.grc.com/otg/feedback.htm">&#8220;Off The Grid&#8221; Feedback</a>&nbsp;</span></span></div>
+</td>
+</tr></table></div></td></tr></table>
+
+<table border="0" cellpadding="0" cellspacing="0"><tr><td><div class="linkblock">
+<table border="0" cellpadding="0" cellspacing="0"><tr valign="top">
+<td>
+<div style="font-size:smaller;"><a href="/otg/uheprng.htm">GRC's Ultra-High Entropy Pseudo-Random Number Generator</a></div>
+</td>
+</tr></table></div></td></tr></table>
+
+
+
+
+
+
+
+
+</center><br /><table border="0" cellpadding="0" cellspacing="0"><tr><td><a href="#top"><img src="https://www.grctech.com/_l4bwcvroskj0e_/image/grc-icon.gif" width="51" height="51" border="0" alt="Jump to top of page" title="Jump to top of page" /></a></td><td><div style="margin:0 20px;"><font size="-2" color="#777777">Gibson Research Corporation is owned and operated by Steve Gibson.&nbsp;&nbsp;The contents<br />of this page are Copyright (c) 2020 Gibson Research Corporation. SpinRite, ShieldsUP,<br />NanoProbe, and any other indicated trademarks are registered trademarks of Gibson<br />Research Corporation, Laguna Hills, CA, USA. GRC's web and customer <a href="https://www.grc.com/privacy.htm" target="_top">privacy policy</a>.</font></div></td><td><a href="#top"><img src="https://www.grctech.com/_l4bwcvroskj0e_/image/jumptotop.png" width="52" height="38" border="0" alt="Jump to top of page" title="Jump to top of page" /></a></td></tr></table><br />
+</center></body></html>
