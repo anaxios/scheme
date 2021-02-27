@@ -52,22 +52,13 @@
 	  elem)))
 
 (define (pure-r tup)
-  (let ((r (car (car tup)))
-	(c (cdr (car tup)))
-	(elem (cdr tup)))
-    r))
+    (car (car tup)))
 
 (define (pure-c tup)
-  (let ((r (car (car tup)))
-	(c (cdr (car tup)))
-	(elem (cdr tup)))
-    c))
+  (cdr (car tup)))
 
 (define (pure-elem tup)
-  (let ((r (car (car tup)))
-	(c (cdr (car tup)))
-	(elem (cdr tup)))
-    elem))
+  (cdr tup))
 
 (define make-latin-square
   (lambda (key)
@@ -80,7 +71,8 @@
 		(make-col (+ r 1)
 			  c
 			  (- n 1)
-			  (append (cdr key) (list (car key))))))) ;(append (cdr key) (car key))
+			  (append (cdr key) (list (car key)))))))
+					
     (define (make-row r c key)
       (if (null? key)
 	  '()
@@ -111,7 +103,70 @@
 			    x))
 	      (newline))
 	    matrix))
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(show-latin-square (make-latin-square '(a b c d e f g h i j k l m n o p q r s t u v w k y z)))
+(define (encode-square keys)
+  (define (exists? r c elem result) 
+    (if (null? (filter (lambda (e)
+			 (if (or (and (= (pure-r e) r)
+				      (eq? (pure-elem e) elem))
+				 (and (= (pure-c e) c)
+				      (eq? (pure-elem e) elem)))
+			       #t
+			       #f))
+		       result))
+	#f
+	#t))
+  (define (next-r r c)
+    (if (= c (1- (length keys)))
+	(modulo (1+ r)
+		(length keys))
+	r))
+  (define (next-c c)
+    (modulo (+ c 1)
+	    (length keys)))
+  
+  (define (try-next n)
+    (+ n 1))
+  
+  (define (next-elem r c n matrix)
+    (letrec ((elem (list-ref keys (modulo n (length keys)))))
+      (if (or (not (exists? r c elem matrix))
+	      (> n (expt (length keys) 2)))
+	  elem
+	  (next-elem r c (try-next n) matrix))))
+  
+  (define (iter result r c)
+    (if (>= (length result) (expt (length keys) 2))
+	result
+	(iter (cons (make-latin r c (next-elem r c 0 result))
+		    result)
+	      (next-r r c)
+	      (next-c c))))
+  (iter '() 0 0))
 
-(append (cdr '(a b d s)) (list (car '(a b d s))))
+(define (show-encoded matrix) 
+  (define (iter matrix r)
+    (letrec ((row (filter (lambda (e) (= (pure-r e) r)) (reverse matrix))))
+      (if (null? row)
+	  '()
+	  (cons (map pure-elem row)
+		(iter matrix (1+ r))))))
+  (for-each (lambda (e) (display e) (newline))(iter matrix 0)))
+
+
+
+(define mylist  (list 'a 'b 'c 'd 'e 'f 'g
+		      'h 'i 'j 'k 'l 'm 'n
+		      'o 'p 'q 'r 's 't 'u
+		      'v 'w 'x 'y 'z))
+;(reverse (encode-square (list 'a 'b 'c 'd 'e 'f 'g 'h 'i 'j 'k)))
+
+
+(show-encoded (encode-square mylist))
+
+
+					; 00a 01b 02c 03d
+(expt 26 2)					; 10b 11a 12d 13c
+					; 20c 21d 22a 23b
+					; 30d 31c 32b 33a
