@@ -129,20 +129,38 @@
   (define (try-next n)
     (+ n 1))
   
+  ;; (define (look-ahead n result r c elem)
+  ;;   (cond ((>= (length result) (expt (length keys) 2)) elem)
+  ;; 	  ((> n (* (length keys) 2)) #f)
+  ;; 	  (else (look-ahead (1+ n)
+  ;; 			    (cons (make-latin r c (next-elem r c 0 result))
+  ;; 			      result)
+  ;; 			(next-r r c)
+  ;; 			(next-c c)
+  ;; 			elem))))
+  
   (define (next-elem r c n matrix)
     (letrec ((elem (list-ref keys (modulo n (length keys)))))
-      (if (or (not (exists? r c elem matrix))
-	      (> n (expt (length keys) 2)))
-	  elem
-	  (next-elem r c (try-next n) matrix))))
-  
+      (cond ((not (exists? r c elem matrix))
+	     elem)
+	    ((> n (* (length keys) 2))
+	     #nil)
+	    (else
+	     (next-elem r c (try-next n) matrix)))))
+    
   (define (iter result r c)
-    (if (>= (length result) (expt (length keys) 2))
-	result
-	(iter (cons (make-latin r c (next-elem r c 0 result))
-		    result)
-	      (next-r r c)
-	      (next-c c))))
+    (cond ((>= (length result) (expt (length keys) 2))
+	   result)
+	  ((nil? (next-elem r c 0 result))
+	   (iter (cons (make-latin r c '?)
+		       result)
+		 (next-r r c)
+		 (next-c c)))
+	  (else
+	   (iter (cons (make-latin r c (next-elem r c 0 result))
+		       result)
+		 (next-r r c)
+		 (next-c c)))))
   (iter '() 0 0))
 
 (define (show-encoded matrix) 
@@ -156,17 +174,18 @@
 
 
 
-(define mylist  (list 'a 'b 'c 'd 'e 'f 'g
+(define mylist (list 'a 'b 'c 'd 'e 'f 'g
 		      'h 'i 'j 'k 'l 'm 'n
 		      'o 'p 'q 'r 's 't 'u
 		      'v 'w 'x 'y 'z))
-;(reverse (encode-square (list 'a 'b 'c 'd 'e 'f 'g 'h 'i 'j 'k)))
+
+;(show-encoded (encode-square (list 'a 'b 'c 'd)))
 
 
-(show-encoded (encode-square mylist))
+;(show-encoded (encode-square mylist))
 
 
 					; 00a 01b 02c 03d
-(expt 26 2)					; 10b 11a 12d 13c
+					; 10b 11a 12d 13c
 					; 20c 21d 22a 23b
 					; 30d 31c 32b 33a
