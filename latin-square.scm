@@ -138,26 +138,38 @@
   ;; 			(next-r r c)
   ;; 			(next-c c)
   ;; 			elem))))
+  (define counter 0)
+  (define (tick)
+    (set! counter (1+ counter)))
+  (define (reset-counter)
+    (set! counter 0))
   
-  (define (next-elem r c n matrix)
-    (letrec ((elem (list-ref keys (modulo n (length keys)))))
+  (define (next-elem r c matrix)
+   ; (display counter)
+    (letrec ((elem (list-ref keys (modulo counter (length keys)))))
       (cond ((not (exists? r c elem matrix))
+	    ; (tick)
 	     elem)
-	    ((> n (* (length keys) 2))
+	    ((> counter (* (length keys) 2))
+	     (reset-counter)
 	     #nil)
 	    (else
-	     (next-elem r c (try-next n) matrix)))))
-    
+	     (tick)
+	     (next-elem r c matrix)))))
+  
+  (define (drop-result r result)
+    (drop result (length (filter (lambda (e) (= r (pure-r e))) result))))
+  
   (define (iter result r c)
     (cond ((>= (length result) (expt (length keys) 2))
 	   result)
-	  ((nil? (next-elem r c 0 result))
-	   (iter (cons (make-latin r c '?)
-		       result)
-		 (next-r r c)
-		 (next-c c)))
+	  ((nil? (next-elem r c result))
+	   (iter 
+		 (drop-result r result)
+		 r
+		 0))
 	  (else
-	   (iter (cons (make-latin r c (next-elem r c 0 result))
+	   (iter (cons (make-latin r c (next-elem r c result))
 		       result)
 		 (next-r r c)
 		 (next-c c)))))
@@ -172,14 +184,24 @@
 		(iter matrix (1+ r))))))
   (for-each (lambda (e) (display e) (newline))(iter matrix 0)))
 
-
+;; (define (check-square square) 
+;;     (if (null? (filter (lambda (e)
+;; 			 (if (or (and (= (pure-r e) r)
+;; 				      (eq? (pure-elem e) elem))
+;; 				 (and (= (pure-c e) c)
+;; 				      (eq? (pure-elem e) elem)))
+;; 			       #t
+;; 			       #f))
+;; 		       square))
+;; 	#f
+;; 	#t))
 
 (define mylist (list 'a 'b 'c 'd 'e 'f 'g
 		      'h 'i 'j 'k 'l 'm 'n
 		      'o 'p 'q 'r 's 't 'u
 		      'v 'w 'x 'y 'z))
 
-;(show-encoded (encode-square (list 'a 'b 'c 'd)))
+;(show-encoded (encode-square (list 'a 'b 'c 'd 'e)))
 
 
 ;(show-encoded (encode-square mylist))
